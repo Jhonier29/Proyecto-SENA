@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0; }
+  
+body {
+    background: #1bdfdf;
+    font-size: 16px;
+    font-family: "Open Sans", Arial, Sans-serif; }
+
+header .Inicio{
+    color: #000;
+}
+
+.Volverbtn{
+    background-color: #0314ff;
+    font-weight: bold;
+}
+
+.logo_inicio{
+    border-radius: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.imagenAnimal {
+    border: 2px ridge #0000ff;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+    height: 50%;
+    border-radius: 5%;
+}
+.registrar {
+    background-color: #ffcccc;
+    font-weight: bold;
+  }

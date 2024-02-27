@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0; }
+  
+body {
+    background: #1bdfdf;
+    font-size: 16px;
+    font-family: "Open Sans", Arial, Sans-serif; }
+    
+header .IniciarSes{
+    color: #000;
+}

@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0; }
+  
+body {
+    background: #1bdfdf;
+    font-size: 16px;
+    font-family: "Open Sans", Arial, Sans-serif; }
+
+header {
+    padding-top: 10px;
+}
+
+/*Principal*/
+.btnInicio {
+    display: inline-block;
+    padding: 10px;
+    margin: 2%;
+    border: 2px solid #333; 
+    border-radius: 5px; 
+    background-color: #9a52ca;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.btnColegio {
+    display: inline-block;
+    padding: 10px;
+    margin: 2%;
+    border: 2px solid #333; 
+    border-radius: 5px; 
+    background-color: #03922e;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.btnGaleria {
+    display: inline-block;
+    padding: 10px;
+    margin: 2%;
+    border: 2px solid #333; 
+    border-radius: 5px; 
+    background-color: #c90505;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.btnTestimonio {
+    display: inline-block;
+    padding: 10px;
+    margin: 2%;
+    border: 2px solid #333; 
+    border-radius: 5px; 
+    background-color: #c9bc05;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.TextoPrin {
+    text-decoration: none;
+    color: #000;
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+.niñosPrin{
+    width: 50%;
+}
+
+.Frase{
+    background-color: #f0efef;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/*Inicio*/
+header .Inicio{
+    color: #000;
+    font-size: 100px;
+    font-weight: 900;
+    margin-left: 30px;
+    
+}
+
+.Volverbtn{
+    background-color: #0314ff;
+    font-weight: bold;
+}
+.Volverbtn:hover {
+    opacity: 80%;
+    
+    }
+
+.logo_inicio{
+    border-radius: 100%;
+}
+.ContenedorAnimal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.imagenAnimal {
+    border: 2px ridge #0000ff;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+    height: 50%;
+    border-radius: 5%;
+}
+.registrar {
+    background-color: #ffcccc;
+    font-weight: bold;
+  }
+.registrar:hover {
+    opacity: 80%;
+  }
+  
+/*Iniciar Sesión*/
+header .IniciarSes{
+    color: #000;
+    font-size: 100px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+/*Registrarse*/
+header .Registrarse {
+    padding-top: 5%;
+    color: #000;
+    justify-content: center;
+    font-size: 80px;
+}
+.Guardarbtn {
+    padding-left: 10px;
+}
+
+/*Inscripciones y matriculas*/
+
+    header .logo a {
+        display: inline-block; }
+    header .logo img{
+        border-radius: 100%;
+    }
+    
+    header .atras{
+        border-radius: 100%;
+        padding: 10px 20px;
+        background-color: #7661DF;
+        width: 100px;
+        text-align: center;
+        align-items: end;
+        float: right;
+        font-weight: bold;
+        color: #000;
+        text-decoration: none;
+    }
+    header .atras:hover {
+        opacity: 80%;
+        }
+    header .Inscripciones {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 5%;
+        border: 2px solid #333; 
+        border-radius: 5px; 
+        background-color: #E5D409;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        color: #000;
+        }
+
+        
+    header .Inscripciones:hover {
+        opacity: 80%;
+        }
+    header .Matriculas {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 5%;
+        border: 2px solid #333; 
+        border-radius: 5px; 
+        background-color: #e56c09;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        color: #000;
+        }
+
+        
+    header .Matricualas:hover {
+        opacity: 80%;
+        }
+div{
+    padding-left: 10px;
+}
+.CECDET {
+    color: blue;
+    font-size: 100px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+p {
+    font-style: italic;
+    margin-left: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.niños{
+    padding-left: 5%;
+}
+img {
+    width: 70% ;
+    border-style:initial;
+}
+
+/* Inscripciones */
+header .inscripciones {
+    text-align: center;
+    color: #000;
+    font-size: 50PX;
+}
+
+header .logo-inscripciones img{
+    border-radius: 100%;
+    align-content: end;
+    width: 30%;
+    margin-left: 160%;
+}
+form {
+    padding: 20px;
+}
+form .label {
+    padding-left: 50px;
+    font-size: 20px;
+}
+.Regresar {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 5%;
+    border: 2px solid #333; 
+    border-radius: 5px; 
+    background-color: #9b9a9a;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.Guardar {
+    text-align: center;
+    padding: 6px 20px;
+    margin: 5%;
+    border: 2px solid #333; 
+    border-radius: 5px; 
+    background-color: #9b9a9a;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+/*Numero inscritos*/
+header .Guardado_exito {
+    text-align: center;
+    color: #000;
+    font-size: 50PX;
+    padding-bottom: 10%;
+}
+
+.numero_inscritos{
+    margin-top: 5px;
+}
+.ovalo {
+    width: 200px; 
+    height: 80px; 
+    background-color: #ccc; 
+    border-radius: 50%; 
+    font-size: 24px;
+}
+
+
+.Btn_Consul_req {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 5%;
+    border: 2px solid #333; 
+    border-radius: 5px; 
+    background-color: #9b9a9a;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.VolverInicio {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 5%;
+    border: 2px solid #333; 
+    border-radius: 100%; 
+    background-color: #9b9a9a;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    float: right;
+}
